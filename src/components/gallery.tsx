@@ -56,6 +56,8 @@ const Gallery = () => {
   };
 
   useEffect(() => {
+    if (loading) return;
+
     const observer = new IntersectionObserver(callbackFunction, options);
 
     if (lastImageRef.current) {
