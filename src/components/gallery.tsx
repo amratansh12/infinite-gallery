@@ -44,10 +44,7 @@ const Gallery = () => {
 
   const callbackFunction = (entries: any) => {
     if (entries[0].isIntersecting) {
-      setInterval(() => {
-        setPage((prevPage) => prevPage + 1);
-      }, 2000);
-      //   console.log(entries);
+      setPage((prevPage) => prevPage + 1);
     }
   };
 
