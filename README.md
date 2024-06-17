@@ -28,6 +28,14 @@ Run the app using following command,
     npm run dev
 ```
 
+# Environment Variable
+
+Add your unsplash access key in .env file,
+
+```bash
+    VITE_UNSPLASH_ACCESS_KEY= <your key>
+```
+
 ## Support
 
 For support, email ashri1205@gmail.com .
